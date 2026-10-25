@@ -20,7 +20,6 @@ FPS düşükse oyunun ayarlarından **Grass**'ı (çimen) kapat.
 | Mod | Ne yapar |
 |---|---|
 | MuckSaveGame 0.9.1 | Oyunu kaydetme. Save'ler oyunu kuranda (host) durur. |
-| Muck Gun Plugin 1.0.0 | Silah. Workbench veya Anvil'de **5 Iron Bar** ile yapılır, sol tık ateş. |
 | Muck Upgrade Buildings 1.3.1 | Çekiç. Workbench'te **5 Wood** ile yapılır. Sol tık tamir, sağ tık basılı tut: yükseltme menüsü (duvarlar, fırın, kazan). |
 | Better Stack Limits 1.0.1 | Bir slota daha çok eşya sığar. |
 | Better Item Pickup 1.0.0 | Alınan eşyalar önce hotbar'a gider. |
