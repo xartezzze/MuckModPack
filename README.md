@@ -13,6 +13,8 @@ Kafe bilgisayarı yeniden başlayınca modlar silinebilir. O zaman sadece 4. ad�
 
 **Herkeste aynı paket kurulu olmalı**, yoksa multiplayer'da sorun çıkar.
 
+FPS düşükse oyunun ayarlarından **Grass**'ı (çimen) kapat.
+
 ## Modlar
 
 | Mod | Ne yapar |
