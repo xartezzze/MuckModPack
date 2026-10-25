@@ -27,7 +27,6 @@ FPS düşükse oyunun ayarlarından **Grass**'ı (çimen) kapat.
 | Item Stat Display 1.1.0 | Eşya ve powerup'ların üstüne gelince ne yaptığını gösterir. |
 | Map Markers 1.0.0 | Haritada sol tık işaret koy, sağ tık sil, E ile renk değiştir. |
 | Keep Inventory 1.0.1 | Ölünce eşyalar gitmez. |
-| Free Chests 1.0.0 | Powerup sandıkları bedava açılır. |
 | Faster Gathering 1.0.0 | Ağaç ve madenler daha hızlı kırılır. |
 | Better Running 1.0.0 | Koşarken stamina yarı hızda biter. |
 | Instant Eat 1.0.0 | Yemekler anında yenir. Sohbete `/instanteat` yazınca açılır/kapanır. |

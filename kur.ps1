@@ -63,7 +63,14 @@ while (-not (Test-Muck $OyunKlasoru)) {
 }
 
 Write-Host "Muck bulundu: $OyunKlasoru" -ForegroundColor Cyan
+if (Get-Process Muck -ErrorAction SilentlyContinue) {
+    Write-Host "Muck acik! Oyunu kapatip kur.bat'i tekrar calistir." -ForegroundColor Red
+    exit 1
+}
 try {
+    # Paketten cikarilan modlar oyunda kalmasin diye eski modlari sil
+    $eskiModlar = Join-Path $OyunKlasoru 'BepInEx\plugins'
+    if (Test-Path -LiteralPath $eskiModlar) { Remove-Item -LiteralPath $eskiModlar -Recurse -Force }
     Copy-Item -Path (Join-Path $modKlasoru '*') -Destination $OyunKlasoru -Recurse -Force
 } catch {
     Write-Host "Kopyalanamadi: $($_.Exception.Message)" -ForegroundColor Red
